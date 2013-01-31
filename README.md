@@ -32,7 +32,7 @@ EM DESENVOLVIMENTO
 ------------------
 
 1. **Classe .NAV-MOBILE** - para implementação na tag NAV, transforma menus UL/LI automaticamente em caixas seletoras estilo dropdown, quando exibido telas inferiores a 768px (tablets e smartphones). Previsão: 04.02.2013.
-2. **sitemap.php** - criação de rotina para geração automática de arquivos "sitemap.xml" no subdiretório "/xmls". Será disponibilizado arquivo modelo 'index.php', já com as rotinas incluídas. Previsão 15.02.2013.
+2. **sitemap.php** - criação de rotina para geração automática de arquivos "sitemap.xml" no subdiretório "/xmls". Será disponibilizado arquivo modelo 'index.php', já com as rotinas incluídas, e os arquivos XML já foram testados no Google Webmasters. Previsão 15.02.2013.
 
 LICENÇAS E CRÉDITOS
 -------------------

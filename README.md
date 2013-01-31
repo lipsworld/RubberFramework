@@ -1,3 +1,5 @@
+# [Rubber Responsive Framework](http://startupeando.com.br/rubber)
+
 INTRODUÇÃO
 ----------
 
@@ -104,3 +106,10 @@ Para facilitar a vida dos designers, também adicionamos as classes .italic e .b
 
 LICENÇAS E CRÉDITOS
 -------------------
+
+<div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" about="http://startupeando.com.br/rubber/index.html"><span property="dct:title">Rubber Framework</span> (<a rel="cc:attributionURL" property="cc:attributionName" href="http://www.startupeando.com.br/rubber">Carlos Matos</a>) / <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></div>
+
+**Versão 1.0.2**
+
+1. 1140 CSS Grid by Andy Taylor - licensed under a Creative Commons Attribution 3.0 Australia License.
+2. Font Awesome v3.0.2 by Dave Gandy - licensed under SIL Open Font License - http://scripts.sil.org/OFL // MIT License - http://opensource.org/licenses/mit-license.html // CC BY 3.0 License - http://creativecommons.org/licenses/by/3.0/

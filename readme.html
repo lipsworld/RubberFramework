@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Rubber Responsive Framework 0.0.2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- 1140px Grid styles for IE -->
+<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+<!-- The 1140px Grid - http://cssgrid.net/ -->
+<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/font-awesome.min.css" media="all" />
+
+<!-- Your styles -->
+<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" />
+   
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js">
+</script>
+
+</head>
+
+<body>
+<header class="full-width" style="background:#CAA902; color:#fff; height:10px; text-align:center;"> </header>
+<div class="full-width">
+  <div class="row" style="text-align:center;">
+    <div class="twocol"> </div>
+    <div class="threecol"><a href="index.html"> <img src="logop.png"> </a></div>
+    <div id="slogan" class="fivecol">
+      <div id="slogan-space"></div>
+      <h2>Uma infinidade de tags e classes,</h2>
+      <h2>mas tudo isso apenas em</h2>
+      <h2><span>HTML</span> e <span>CSS3</span></h2>
+    </div>
+    <div class="twocol"> </div>
+  </div>
+</div>
+
+<div class="container">
+  
+  <div id="separator" class="row" style="border-bottom:solid 2px #8D8676; margin-top:-15px;">
+  </div>
+
+<!-- Menu Superior Responsivo -->
+  
+  <nav class="row nav-mobile">
+  	<ul class="bold" style="font-size:16px; text-transform:uppercase; text-align:center; margin-bottom: 10px;">
+    <li><a href="#intro">Introdução</a></li>
+    <li><a href="#grids">Grids, linhas e colunas</a></li>
+    <li><a href="#tela">Tela inteira e espaçamento</a></li>
+    <li><a href="#ui">Ícones configuráveis e "on-demand"</a></li>
+  </ul>
+  </nav>
+</div>
+
+<!-- Introdução -->
+
+<div class="container" style="text-align:center; margin-top:25px;">
+  <div class="row" style="margin-top:25px;">
+    <div class="threecol" style="text-align:right;">
+    <h3 class="bold" style="font-size:16px;">Que são frameworks?</h3>
+    <br>
+    <p class="italic">Resumindo, segundo a definição, é um "conjunto de classes em uma linguagem de programação específica, usadas para auxiliar o desenvolvimento de softwares ou sistemas". Certo, mas e para alguém que só que montar uma webpage decente e responsiva? Simples - um framework é um modelo que permite a utilização de recursos repetitivos com simples comandos, classes e funções. De um modo ou de outro, o objetivo é poupar trabalho.</p>
+    </div>
+    <div class="ninecol last" style="text-align:left;">
+    <h2 id="intro" class="bold">Introdução</h2>
+	<br>
+    <p>A maioria dos designers e webdesigners de hoje não pode prescindir do conhecimento mínimo de programação. Ainda que sua função esteja muito mais ligada à produção e customização de folhas de estilo em CSS e CSS3, bem como à diagramação de página via HTML, vários frameworks, bibliotecas e scripts, em geral em Javascript, tornariam seu trabalho muito mais rápido e fácil. Há uma infinidade de "frameworks" CSS, em sua maioria responsivos - ou seja, <span class="bold">oferecem suporte a todos os devices, reorganizando o conteúdo para melhorar a visibilidade em plataformas diversas</span>. Contudo, ao pesquisar os diversos frameworks hoje utilizados e difundidos no mercado, podemos constatar alguns dilemas para o webdesigner brasileiro.</p>
+    <br>
+    <ul class="icons italic" style="list-style:none; padding-left:30px; padding-right:30px; line-height:20px;">
+    <li><i class="icon-remove icon-large pull-left"></i>Praticamente não existem frameworks em PORTUGUÊS;</li>
+    <li><i class="icon-remove icon-large pull-left"></i>Frameworks são baseados em grids de largura fixa - responsivos para mobile e tablets, mas inadequados para widescreen, HD e TVs;</li>
+    <li><i class="icon-remove icon-large pull-left"></i>Mais recursos geralmente significam horas de estudo em programação Javascript ou de outras linguagens e frameworks;</li>
+    <li><i class="icon-remove icon-large pull-left"></i>Projetos são geralmente abandonados, não evoluem e não ganham novas versões e features.</li>
+    </ul>
+    <br>
+    <p>Resolvemos encarar o desafio: juntando os trapos de algumas páginas e projetos que concebemos durante o último ano, aprimoramos um dos mais populares sistemas mínimos de grids para HTML/CSS, o <b>1140px CSS Grid</b>. Apesar de ser um framework leve e eficiente, além de facílimo de usar, nunca teve atualizações e conta com várias limitações, por esse motivo. Juntando os cacos e assimilando novas funcionalidades responsivas, além de facilidades Javascript e bibliotecas que podem ser igualmente acionadas por classes ou, no máximo, IDs ou simples "script requests", criamos o <span class="bold">RUBBER FRAMEWORK</span>, lançado em sua versão Beta 1.0.2 (a 1.0.1 simplesmente não deu certo).</p>
+    <br>
+    <p>A seguir, explicaremos o uso das classes do antigo 1140px, reutilizadas por nós, bem como a relação de novas classes e dispositivos.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Grids, colunas e linhas -->
+
+<div class="container" style="text-align:center; margin-top:55px;">
+  <div class="row">
+    <div class="ninecol" style="text-align:right; margin-top:25px;">
+    <h2 id="grids" class="bold" style="text-align:right;">Grids, linhas e colunas</h2>
+    <br> 
+    <p class="classes">Comecemos com o sistema de grids, linhas e colunas original do framework <b>1140px CSS Grid</b>. Ele está completamente baseado nas classes <span>.container</span> e <span>.row</span>. Pensemos na diagramação da página como uma sequência de tabelas em Excel, por exemplo. Cada nova tabela estaria representada por um <span>.container</span>, podendo possuir um número qualquer de linhas, cada uma delas equivalentes a um novo <span>.row</span> em nosso design. Consideremos uma página web que possui três diferentes "seções", cada uma a ser trabalhada de forma diferente. O HTML ficaria do seguinte modo:</p>
+    <br>
+	<pre>
+&lt;body&gt;
+    
+  &lt;div class="container"&gt;
+ 
+    &lt;div id="linha1" class="row"&gt;&lt;/div&gt;
+  
+    &lt;div id="linha2" class="row"&gt;&lt;/div&gt;
+  
+    &lt;div id="linha3" class="row"&gt;&lt;/div&gt;
+  
+  &lt;/div&gt;
+
+&lt;/body&gt;
+    </pre>
+    <p class="classes">Uma vez criadas as "linhas" da minha página, é necessário definirmos em quantas colunas cada uma delas se dividirá, e qual a largura dessas colunas. Como estamos lidando com um "grid" de 12 colunas, as classes usadas corresponderão ao número, em inglês, mais o sufixo "col". São doze classes, no total: <span>.onecol</span>,<span>.twocol</span>,<span>.threecol</span>,<span>.fourcol</span>,<span>.fivecol</span>,<span>.sixcol</span>,<span>.sevencol</span>,<span>.eightcol</span>,<span>.ninecol</span>,<span>.tencol</span>,<span>.elevencol</span> e <span>.twelvecol</span>. O que varia, em cada uma das classes, é a largura da coluna que irá ser inserida - quanto maior o número, maior a largura.</p>
+    <br>
+    <pre>
+&lt;body&gt;
+    
+  &lt;div class="container"&gt;
+ 
+    &lt;div id="linha1" class="row"&gt;&lt;/div&gt;
+    
+      &lt;div class="fourcol"&gt;&lt;/div&gt;
+      &lt;div class="fourcol"&gt;&lt;/div&gt;
+      &lt;div class="fourcol last"&gt;&lt;/div&gt;
+  
+    &lt;div id="linha2" class="row"&gt;&lt;/div&gt;
+    
+      &lt;div class="fourcol"&gt;&lt;/div&gt;
+      &lt;div class="eightcol last"&gt;&lt;/div&gt;
+  
+    &lt;div id="linha3" class="row"&gt;&lt;/div&gt;
+
+      &lt;div class="twocol"&gt;&lt;/div&gt;
+      &lt;div class="sevencol"&gt;&lt;/div&gt;
+      &lt;div class="threecol last"&gt;&lt;/div&gt;
+  
+  &lt;/div&gt;
+
+&lt;/body&gt;
+    </pre>
+    <br>
+    <p class="classes">Voltando ao grid, cada <span>.row</span> deverá receber classes de colunas, até que a largura complete o equivalente a 12 colunas, <b>SEMPRE</b> lembrando de inserir também a classe <span>.last</span> na última coluna de cada <span>.row</span>. O "last" elimina a margem direita da coluna inserida, permitindo que esta mantenha o grid alinhado na vertical. O exemplo acima mostra diferentes possibilidades de configuração. Na primeira, dividimos o espaço da seção em três colunas iguais, usando apenas a classe <span>.fourcol</span> (4 + 4 + 4 = 12). Na segunda seção, dividimos em uma configuração de um terço e dois terços, utilizando as classes <span>.fourcol</span> e <span>.eightcol</span> (4 + 8 = 12). Finalmente, na terceira seção optamos por uma construção complexa, com uma "sidebar" esquerda ocupando um sexto da largura do grid, uma área do conteúdo principal ocupando a mais de metade da largura e por fim outra 'sidebar" na direita, essa ocupando um quarto da largura total. Impossível? Não se utilizarmos as classes <span>.twocol</span>, <span>.sevencol</span> e <span>.threecol</span> junta. Faça as contas (2 + 7 + 3 = 12).</p>
+    </div>
+    
+    <div class="threecol last" style="text-align:left; margin-top:25px;">
+    <h3 class="bold" style="font-size:16px;">Por que 12 colunas?</h3>
+    <br>
+    <p class="italic">Existem frameworks em CSS baseados em grid de 12, 16, 24 e até mesmo 32 ou 36 colunas. Escolhemos trabalhar com 12 apenas. As razões são bastante simples: em primeiro lugar, 12 colunas são mais que suficientes para dispor os elementos necessários a uma webpage, evitando poluição excessiva.</p>
+    <br>
+    <p class="italic">Também, é mais fácil organizar um bom HTML quando trabalhamos com menos itens e, convenhamos, não faz sentido usar um framework para facilitar, se precisamos de complexos cálculos na hora de usá-lo.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Tela inteira e espaçamento-zero -->
+
+<div class="container" style="text-align:center; margin-top:55px;">
+  <div class="row">
+    <div class="threecol" style="text-align:right; margin-top:25px;">
+    <h3 class="bold" style="font-size:16px;">Responsivo não é sinônimo de mobile</h3>
+    <br>
+	<p class="italic">Muito se ouve falar atualmente de design "responsivo". Com o avanço das plataformas modernas e mobile, sites precisam se ajustar à visualização em telas menores, portáteis e, muitas vezes, verticais, ao invés de horizontais. Mas responsivo não é sinônimo de mobile - a grande maioria dos frameworks hoje no mercado praticamente ignora o fato de que grande parte dos novos desktops, laptops e também smart TVs trabalham com resoluções de larguras de 1440, 1920 e até mais de dois mil pixels. Com isso, trabalhar com a solução de 1140px pode ser uma opção limitada, que ignora quase 50% do potencial dos monitores atuais.</p>
+    </div>
+    <div class="ninecol last" style="text-align:left; margin-top:25px;">
+    <h2 id="tela" class="bold" style="text-align:left;">Tela inteira e espaçamento-zero</h2>
+    <br>
+    <p class="classes">Aqui iremos apresentar as classes para trabalho em tela cheia (<span>.full-width</span>) e também para eliminação do espaçamento entre as colunas (<span>.tight</span>). A classe <span>.full-width</span> trabalhará de forma semelhante à classe anterior <span>.container</span>. Ela criará um espaço onde serão dispostas as "linhas" (<span>.row</span>), porém permitindo a divisão por colunas dentro da largura total da tela. Quanto ao uso das colunas, vale a mesma regra do tópico anterior - qualquer disposição que some um total de 12 colunas de largura, com as mesmas classes (<span>.onecol</span>, <span>.twocol</span> e assim por diante), como no exemplo abaixo:</p>
+        <br>
+    <pre>
+&lt;body&gt;
+    
+  &lt;div class="full-width"&gt;
+ 
+    &lt;div id="linha1" class="row"&gt;&lt;/div&gt;
+    
+      &lt;div class="fourcol"&gt;&lt;/div&gt;
+      &lt;div class="fourcol"&gt;&lt;/div&gt;
+      &lt;div class="fourcol last"&gt;&lt;/div&gt;
+  
+    &lt;div id="linha2" class="row"&gt;&lt;/div&gt;
+    
+      &lt;div class="fourcol"&gt;&lt;/div&gt;
+      &lt;div class="eightcol last"&gt;&lt;/div&gt;
+  
+    &lt;div id="linha3" class="row"&gt;&lt;/div&gt;
+
+      &lt;div class="twocol"&gt;&lt;/div&gt;
+      &lt;div class="sevencol"&gt;&lt;/div&gt;
+      &lt;div class="threecol last"&gt;&lt;/div&gt;
+  
+  &lt;/div&gt;
+
+&lt;/body&gt;
+    </pre>
+    <br>
+    <p class="classes">Em outras palavras: com a substituição de uma única classe, é possível migrar do grid de 1140px para o grid de tela cheia. Também é possível utilizar ambos em uma mesma página, abrindo diferentes DIVs com as classes <span>.full-width</span> e <span>.container</span>, além de criar um modelo "híbrido", no qual usa-se a tela cheia, mas com margens laterais de 20 pixels de cada lado. Para isso, basta utilizar as duas classes na mesma DIV.</p>
+    <br>
+    <p class="classes">Outra possibilidade do framework é eliminar o espaçamento entre as várias colunas de cada linha, que são automaticamente inseridos com a classe <span>.row</span>. Sob o domínio dessa classe, colunas de qualquer largura, seja em tela cheia ou em grid de 1140px, são exibidas individualmente em plataformas mobile, uma sobre a outra. Porém, e se quisermos exibi-las lado a lado também nos celulares e tablets? Para isso, usaremos a nova classe <span>.tight</span> em substituição à <span>.row</span>. Além de eliminar espaços entre colunas, essa classe exibirá todas as colunas de uma linha "lado a lado" também em mobile, permitindo o uso, por exemplo, de textos em duas colunas para celular.</p>
+    <br>
+    <p class="classes">Para facilitar a vida dos designers, também adicionamos as classes <span>.italic</span> e <span>.bold</span>, para rápida configuração de fontes, sem sair do HTML. Em versões futuras, incluiremos também classes específicas para acesso a diversos recursos prontos de tipografia.</p>
+
+    </div>
+  </div>
+</div>
+
+<!-- Ícones integrados em CSS -->
+
+<div class="container" style="text-align:center; margin-top:55px; margin-bottom:30px;">
+  <div class="row">
+    <div class="ninecol" style="text-align:right; margin-top:25px;">
+    <h2 id="ui" class="bold" style="text-align:right;">Ícones configuráveis e "on-demand"</h2>
+    <br>
+    <p>Pensando na interface do usuário, agregamos desde o início a esse framework o potencial do Font Awesome, uma biblioteca com mais de 200 ícones diferentes, que podem ser adicionados facilmente aos arquivos HTML também por meio de classes adicionadas à tag "I". O sistema também possui classes adicionais para dimensionamento e animação de ícones inseridos e também classes e dispositivos para a inserção de listas, botões e menus com elementos icônicos. O manual de uso e a lista de todos os ícones e classes podem ser encontrados na página do <a href="http://fortawesome.github.com/Font-Awesome/#icons-new">Font Awesome</a>. Embora o manual esteja apenas em inglês, iremos disponibilizar em breve sua versão em português, para facilitar a vida do usuário do <span class="bold">RUBBER FRAMEWORK</span>.</p>
+    </div>
+    <div class="threecol last" style="text-align:left; margin-top:25px;">
+    <h3 class="bold" style="font-size:16px;">UI design</h3>
+    <br>
+    <p class="italic">Muito conhecida de webdesigners atualmente, UI é a sigla para "User Interface". É uma abordagem gráfica para a navegação do usuário, que utiliza barras de rolagem, setas, elementos diversos e, principalmente ícones.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Funções e bibliotecas auxiliares --> 
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/jQuery.menutron.js"></script>
+
+<script>
+  $(function(){
+    $(".nav-mobile").menutron({
+      maxScreenWidth: 768
+    });
+  });
+</script>
+
+</body>
+</html>

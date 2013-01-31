@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Rubber Responsive Framework 0.0.2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- 1140px Grid styles for IE -->
+<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+<!-- The 1140px Grid - http://cssgrid.net/ -->
+<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/font-awesome.min.css" media="all" />
+
+<!-- Your styles -->
+<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" />
+   
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js">
+</script>
+
+<!--Delete embedded styles, just for example.-->
+
+</head>
+
+<body>
+<header class="full-width" style="background:#CAA902; color:#fff; height:10px; text-align:center;"> </header>
+<div class="full-width">
+  <div class="row" style="text-align:center;">
+    <div class="twocol"> </div>
+    <div class="threecol"> <img src="logop.png"> </div>
+    <div id="slogan" class="fivecol">
+      <div id="slogan-space"></div>
+      <h2>Cansou de <span>frameworks CSS</span> que</h2>
+      <h2>estão cheios de comandos em</h2>
+      <h2>Javascript e outras linguagens?</h2>
+    </div>
+    <div class="twocol"> </div>
+  </div>
+</div>
+<div class="container">
+  <div id="separator" class="row" style="border-bottom:solid 2px #8D8676; margin-top:-15px;"> </div>
+</div>
+<div class="container" style="text-align: center; margin-top: 25px;">
+  <div class="row">
+    <div class="fourcol" style="font-style:italic;">
+      <h2>O que é?</h2>
+      <br>
+      <p><span style="font-weight:700;">Rubber</span> é um framework CSS simples e leve - é claro que ele contém algumas rotinas e bibliotecas em Javascript, mas seu manuseio e prototipação se dá apenas via HTML e CSS3. O <span style="font-weight:700;">Rubber Framework</span> foi criado a partir do 1140px CSS Grid, de <a href="http://andytaylor.me/">Andy Taylor</a>.</p>
+      <br>
+      <p>O Framework original possuía layout responsivo simples, no qual o grid de 12 colunas do modelo padrão era "empilhado" em colunas simples para tablets e smartphones. O <span style="font-weight:700;">Rubber Framework</span> adiciona novas classes CSS para uso do grid em tela inteira, não importando qual a largura trabalhada. Também é possível exibir colunas sem espaçamento, "coladas" umas às outras.</p>
+      <br>
+      <p class="classes">As novas classes <span>.full-width</span> e <span>.tight</span> irão permitir o uso da largura total da tela, sem extinguir os antigos <span>.container</span> e <span>.row</span> - ambos usados como anteriormente, em 1140px. 
+    </div>
+    <div class="sixcol"> <img src="img/screen.png"/ style="margin-top:20px;"> </div>
+    <div class="twocol last" style="font-style:italic; font-size:12px; margin-top:5px;">
+      <p class="classes">Com a nova classe <span>.full-width</span>, é mantido o sistema de "grid" em 12 colunas, porém em tela cheia, sem limitações de largura.</p>
+      <br>
+      <p class="classes">Como no sistema do 1140px CSS Grid, cada novo <span>.container</span> ou <span>.full-width</span> pode conter diversas subdivisões horizontais, separadas por DIVs com classes <span>.row</span>, que por sua vez podem conter qualquer arranjo de colunas que some um total de 12, acionadas por classes próprias (<span>.onecol, .twocol, .threecol, .fourcol</span> e assim por diante, lembrando sempre de adicionar a classe <span>.last</span> à última coluna de cada <span>.row</span>.</p>
+    </div>
+  </div>
+</div>
+<div class="full-width">
+  <div id="separator" class="row" style="border-bottom:solid 2px #8D8676; margin-top:30px;"> </div>
+</div>
+<div class="full-width container" style="text-align:center; color:#8D8676; margin-top:15px;">
+  <div id="features" class="row">
+    <div class="twocol"><i class="icon-bullhorn icon-6x"></i>
+      <h4 style="margin-top:15px; margin-bottom:15px;">Acompanhe aqui <span style="font-weight:700">novidades</span>, atualizações, cursos e treinamentos</h4>
+    </div>
+    <div class="twocol"> <a href="http://fortawesome.github.com/Font-Awesome/#icons-new"><i class="icon-flag icon-6x"></i></a>
+      <h4 style="margin-top:15px;margin-bottom:15px;">Classes para inserção de <span style="font-weight:700">250 ícones</span> do sistema <a href="http://fortawesome.github.com/Font-Awesome/">FontAwesome</a></h4>
+    </div>
+    <div class="twocol"><i class="icon-cogs icon-6x"></i>
+      <h4 style="margin-top:15px;margin-bottom:15px;">Desenvolvimento e melhoria constantes - acompanhe no <span style="font-weight:700">Github</span>!</a></h4>
+    </div>
+    <div class="twocol"> <a href="readme.html"><i class="icon-list icon-6x"></i></a>
+      <h4 style="margin-top:15px;margin-bottom:15px;">Dúvidas? Leia nossa <span style="font-weight:700">documentação</span> detalhada em tópicos</a></h4>
+    </div>
+    <div class="twocol"> <a href="Rubber Framework 1.0.2.zip"><i class="icon-download-alt icon-6x"></i></a>
+      <h4 style="margin-top:15px;margin-bottom:15px;">Faça o <span style="font-weight:700">download</span> do framework e modelos HTML agora mesmo!</a></h4>
+    </div>
+    <div class="twocol last"> <a href="contact.html"><i class="icon-envelope icon-6x"></i></a>
+      <h4 style="margin-top:15px;margin-bottom:15px;">Queremos ver como ficou seu site. Entre em <span style="font-weight:700">contato</span> e mostre pra nós</a></h4>
+    </div>
+  </div>
+</div>
+
+<!-- Funções e bibliotecas auxiliares --> 
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</body>
+</html>

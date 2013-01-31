@@ -1,0 +1,175 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+body {
+	background: #F5F4D8;
+	background-size: 100px 100px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight:400;
+	font-size:14px;
+}
+/*---------------- Tipografia -----------------*/	
+	
+	h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 26px;
+}
+h3 {
+	font-size: 22px;
+}
+h4 {
+	font-size: 16px;
+}
+h1, h2, h3, h4 {
+	color:#3E3731;
+	font-family: 'Arvo', serif;
+	font-weight:400;
+	text-transform:uppercase;
+}
+span {
+	color:#CAA902;
+}
+.classes span {
+	color:#3E3731;
+	font-family: "Times New Roman", Times, serif;
+	font-size:14px;
+	font-style:normal;
+	font-weight:600;
+}
+#slogan {
+	line-height:28px;
+}
+#slogan-space {
+	height:106px;
+}
+#menu-content ul {
+	list-style-type:none;
+	margin-top:25px;
+	padding:0;
+}
+#menu-content ul li {
+	float:left;
+	display:block;
+	width:25%;
+}
+
+pre {
+	font-family:"Courier New", Courier, monospace;
+	text-align:left;
+	margin-left:120px;
+	margin-right:30px;
+	margin-top:10px;
+	margin-bottom:15px;
+	padding-left: 10px;
+	border-left:solid 2px #CAA902;
+}
+
+/*---------------- Ícones -----------------*/	
+
+	
+	#features div a {
+	text-decoration:none;
+	color:inherit;
+}
+#features div i:hover {
+	text-shadow:0 5px 10px rgba(0,0,0,.25);
+}
+
+/*---------------- Menus -----------------*/	
+
+
+.nav-mobile a {
+	color:#8D8676;
+	text-decoration: none;
+}
+
+.nav-mobile a:hover{
+	text-decoration: underline;	
+}
+
+
+ @media all and (min-width:1024px) and (max-width:1280px) {
+h1 {
+	font-size: 24px;
+}
+h2 {
+	font-size: 20px;
+}
+h3 {
+	font-size: 16px;
+}
+h4 {
+	font-size: 14px;
+}
+#slogan {
+	line-height:22px;
+}
+#slogan-space {
+	height:86px;
+}
+}
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media all and (max-width: 1023px) {
+body {
+}
+h1 {
+	font-size: 20px;
+}
+h2 {
+	font-size: 16px;
+}
+h3 {
+	font-size: 12px;
+}
+h4 {
+	font-size: 12px;
+}
+#slogan {
+	line-height:18px;
+}
+#slogan-space {
+	height:66px;
+}
+#contato {
+	margin-top: 25px;
+}
+
+pre {
+	margin-left:60px;
+}
+}
+ @media all and (max-width: 768px) {
+#slogan-space, #separator {
+	display:none;
+}
+#contato {
+	margin-top: 25px;
+}
+pre {
+	margin-left:20px;
+	font-size:12px;
+	margin-right:100px;
+}
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}

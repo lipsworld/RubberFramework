@@ -28,6 +28,12 @@ Resolvemos encarar o desafio: juntando os trapos de algumas páginas e projetos 
 A seguir, explicaremos o uso das classes do antigo 1140px, reutilizadas por nós, bem como a relação de novas classes e dispositivos.
 
 
+EM DESENVOLVIMENTO
+------------------
+
+1. **Classe .NAV-MOBILE** - para implementação na tag NAV, transforma menus UL/LI automaticamente em caixas seletoras estilo dropdown, quando exibido telas inferiores a 768px (tablets e smartphones). Previsão: 04.02.2013.
+
+
 LICENÇAS E CRÉDITOS
 -------------------
 

@@ -31,8 +31,20 @@ A seguir, explicaremos o uso das classes do antigo 1140px, reutilizadas por nós
 EM DESENVOLVIMENTO
 ------------------
 
-1. **Classe .nav-mobile** - para implementação na tag NAV, transforma menus UL/LI automaticamente em caixas seletoras estilo dropdown, quando exibido telas inferiores a 768px (tablets e smartphones). Previsão: 04.02.2013.
-2. **sitemap.php** - criação de rotina para geração automática de arquivos "sitemap.xml" no subdiretório "/xmls". Será disponibilizado arquivo modelo 'index.php', já com as rotinas incluídas, e os arquivos XML já foram testados no Google Webmasters. Previsão 15.02.2013.
+1. **sitemap.php** - criação de rotina para geração automática de arquivos "sitemap.xml" no subdiretório "/xmls". Será disponibilizado arquivo modelo 'index.php', já com as rotinas incluídas, e os arquivos XML já foram testados no Google Webmasters. Previsão 15.02.2013.
+
+VERSÕES ESTÁVEIS
+----------------
+
+**Versão 1.0.5**
+* Inserção da classe ".nav-mobile" para menus UL/LI;
+* Jquery incluído;
+
+**Versão 1.0.2**
+* Primeira versão estável;
+* Grid responsivo;
+* Ícones Font Awesome inseridos via classes CSS;
+
 
 LICENÇAS E CRÉDITOS
 -------------------
@@ -43,3 +55,4 @@ LICENÇAS E CRÉDITOS
 
 1. 1140 CSS Grid by Andy Taylor - licensed under a Creative Commons Attribution 3.0 Australia License.
 2. Font Awesome v3.0.2 by Dave Gandy - licensed under SIL Open Font License - http://scripts.sil.org/OFL // MIT License - http://opensource.org/licenses/mit-license.html // CC BY 3.0 License - http://creativecommons.org/licenses/by/3.0/
+3. Menutron JS library - Copyright © 2012 Mike King (@micjamking) - Repositório(https://github.com/micjamking/Menutron)  

@@ -3,12 +3,13 @@
 USO
 ---
 
-O diretório [Rubber Framework 1.0.2](https://github.com/lipsworld/RubberFramework/tree/lipsworld/Rubber%20Framework%201.0.2) acima contém os arquivos básicos para uso do framework. Estão inclusos no pacote:
+O diretório [Rubber Framework 1.0.5](https://github.com/lipsworld/RubberFramework/tree/lipsworld/Rubber%20Framework%201.0.5) acima contém os arquivos básicos para uso do framework. Estão inclusos no pacote:
 
 - Arquivo 'index.html' base, com links para folhas de estilo, bibliotecas JS
 - Jquery 1.8.3 minified
 - Ícones Font Awesome (diretório /font)
 - Folhas de estilo do grid (1140.css), ícones (font-awesome.min.css), ajustes IE (ie.css / font-awesome-ie7.min.css) e folha para customização (styles.css)
+- Biblioteca 'jQuery.menutron.js', que permite o uso da classe '.nav-mobile' para menus responsivos
 
 LEIA MAIS EM - [RUBBER RESPONSIVE FRAMEWORK](http://startupeando.com.br/rubber)
 

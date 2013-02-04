@@ -32,6 +32,7 @@ EM DESENVOLVIMENTO
 ------------------
 
 1. **sitemap.php** - criação de rotina para geração automática de arquivos "sitemap.xml" no subdiretório "/xmls". Será disponibilizado arquivo modelo 'index.php', já com as rotinas incluídas, e os arquivos XML já foram testados no Google Webmasters. Previsão 15.02.2013.
+2. **Tabelas responsivas** - preconfiguração da biblioteca JS Footable para exibição de tabelas redimensionadas e com colunas ocultas (apenas exibíveis após toque ou clique) em dispositivos móveis. Previsão 20.02.2013.
 
 VERSÕES ESTÁVEIS
 ----------------

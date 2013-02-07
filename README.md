@@ -3,7 +3,7 @@
 USO
 ---
 
-O diretório [Rubber Framework 1.0.5](https://github.com/lipsworld/RubberFramework/tree/lipsworld/Rubber%20Framework%201.0.5) acima contém os arquivos básicos para uso do framework. Estão inclusos no pacote:
+O diretório [Rubber Framework 1.0.6](https://github.com/lipsworld/RubberFramework/tree/lipsworld/Rubber%20Framework%201.0.6) acima contém os arquivos básicos para uso do framework. Estão inclusos no pacote:
 
 - Arquivo 'index.html' base, com links para folhas de estilo, bibliotecas JS
 - Jquery 1.8.3 minified

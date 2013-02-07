@@ -10,6 +10,7 @@ O diretório [Rubber Framework 1.0.5](https://github.com/lipsworld/RubberFramewo
 - Ícones Font Awesome (diretório /font)
 - Folhas de estilo do grid (1140.css), ícones (font-awesome.min.css), ajustes IE (ie.css / font-awesome-ie7.min.css) e folha para customização (styles.css)
 - Biblioteca 'jQuery.menutron.js', que permite o uso da classe '.nav-mobile' para menus responsivos
+- Biblioteca 'footable-0.1.js', que permite o uso da classe '.table-mobile' para tabelas responsivas dinâmicas
 
 LEIA MAIS EM - [RUBBER RESPONSIVE FRAMEWORK](http://startupeando.com.br/rubber)
 
@@ -33,11 +34,15 @@ EM DESENVOLVIMENTO
 ------------------
 
 1. **sitemap.php** - criação de rotina para geração automática de arquivos "sitemap.xml" no subdiretório "/xmls". Será disponibilizado arquivo modelo 'index.php', já com as rotinas incluídas, e os arquivos XML já foram testados no Google Webmasters. Previsão 15.02.2013.
-2. **Tabelas responsivas** - preconfiguração da biblioteca JS Footable para exibição de tabelas redimensionadas e com colunas ocultas (apenas exibíveis após toque ou clique) em dispositivos móveis. Previsão 20.02.2013.
-3. **Tooltips** - inserção de 10 novas classes CSS via integração da biblioteca 'hint', para controle e uso de tooltips no HTML. Previsão 20.02.2013.
+2. **Tooltips** - inserção de 10 novas classes CSS via integração da biblioteca 'hint', para controle e uso de tooltips no HTML. Previsão 20.02.2013.
 
 VERSÕES ESTÁVEIS
 ----------------
+
+**Versão 1.0.6**
+* Inserção da classe ".table-mobile", para uso com tag TABLE e geração de tabelas responsivas dinâmicas. Exemplo do uso pode ser visto [nesta página](http://parley.com.br/pricing.html). A classe deve ser incluída na tag TABLE do HTML, e nas colunas TH especificadas as plataformas nas quais a ocultação será acionada (para tanto, é necessário incluir o atributo 'data-hide=""' na tag TH, com valor 'phone', 'tablet' ou ambos);
+
+* Mais detalhes sobre o uso em breve em nossa página, que pode ser acessada pelo primeiro link deste arquivo README;
 
 **Versão 1.0.5**
 * Inserção da classe ".nav-mobile" para menus UL/LI;

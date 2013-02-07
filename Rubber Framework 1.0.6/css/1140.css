@@ -1,0 +1,246 @@
+﻿/* CSS Resets */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, q, small, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border:0;
+	margin:0;
+	padding:0
+}
+article, aside, figure, figure img, figcaption, hgroup, footer, header, nav, section, video, object {
+	display:block
+}
+a img {
+	border:0
+}
+figure {
+	position:relative
+}
+figure img {
+	width:100%
+}
+/* ==================================================================================================================== */
+/* ! Based on 1140px Grid V2 by Andy Taylor \ http://cssgrid.net
+   ! Criado por Carlos Matos / Startupeando \ http://www.startupeando.com.br */
+/* ==================================================================================================================== */
+
+.full-width {
+	padding:0;
+}
+.full-width .row {
+	max-width:100%;
+}
+.full-width .tight {
+	max-width:100%;
+}
+.container {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.row {
+	width: 100%;
+	max-width: 1140px;
+	min-width: 755px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {
+	margin-right: 3.8%;
+	float: left;
+	min-height: 1px;
+}
+.row .onecol {
+	width: 4.85%;
+}
+.row .twocol {
+	width: 13.45%;
+}
+.row .threecol {
+	width: 22.05%;
+}
+.row .fourcol {
+	width: 30.75%;
+}
+.row .fivecol {
+	width: 39.45%;
+}
+.row .sixcol {
+	width: 48%;
+}
+.row .sevencol {
+	width: 56.75%;
+}
+.row .eightcol {
+	width: 65.4%;
+}
+.row .ninecol {
+	width: 74.05%;
+}
+.row .tencol {
+	width: 82.7%;
+}
+.row .elevencol {
+	width: 91.35%;
+}
+ .row .twelvecol, .tight . twelvecol {
+width: 100%;
+float: left;
+}
+.last {
+	margin-right: 0px;
+}
+/* ----------- Full-width Fixes ---------- */
+
+.full-width .row .twocol {
+	width: 13.5%;
+}
+.full-width .row .threecol {
+	width: 22.15%;
+}
+.full-width .row .fourcol {
+	width: 30.8%;
+}
+.full-width .row .sixcol {
+	width: 48.1%;
+}
+/* ----------- Grids sem separação ---------- */
+
+.tight .onecol {
+	margin-right: 0;
+	float: left;
+	min-height: 1px;
+	width: 8.33%;
+}
+.tight .twocol {
+	margin-right: 0;
+	float: left;
+	min-height: 1px;
+	width: 16.66%;
+}
+.tight .threecol {
+	margin-right: 0;
+	float: left;
+	min-height: 1px;
+	width: 25%;
+}
+.tight .fourcol {
+	margin-right: 0;
+	float: left;
+	min-height: 1px;
+	width: 33.33%;
+}
+.tight .fivecol {
+	margin-right: 0;
+	float: left;
+	min-height: 1px;
+	width: 41.66%;
+}
+.tight .sixcol {
+	margin-right: 0;
+	float: left;
+	min-height: 1px;
+	width: 50%;
+}
+.tight .sevencol {
+	margin-right: 0;
+	float: left;
+	min-height: 1px;
+	width: 58.33%;
+}
+.tight .eightcol {
+	margin-right: 0;
+	float: left;
+	min-height: 1px;
+	width: 66.66%;
+}
+.tight .ninecol {
+	margin-right: 0;
+	float: left;
+	min-height: 1px;
+	width: 75%;
+}
+.tight .tencol {
+	margin-right: 0;
+	float: left;
+	min-height: 1px;
+	width: 83.33%;
+}
+.tight .elevencol {
+	margin-right: 0;
+	float: left;
+	min-height: 1px;
+	width: 91.66%;
+}
+
+/*---------------------- Outros Elementos ----------------------*/
+
+.italic {
+	font-style:italic;
+}
+.bold {
+	font-weight:700;
+}
+img, object, embed {
+	max-width: 100%;
+}
+img {
+	height: auto;
+}
+
+/*---------------------- Menu responsivo ----------------------*/
+
+.nav-mobile ul li, .nav-mobile dt, .nav-mobile dd{
+	display: inline;
+	margin: 0 5px;
+}
+
+nav{
+	margin: 40px 0 0;
+}
+
+select{
+	width: 50%;
+}
+
+.nav-mobile {
+	text-align:center;
+}
+
+
+/* Smaller screens */
+
+@media only screen and (max-width: 1023px) {
+body {
+	font-size: 0.8em;
+	line-height: 1.5em;
+}
+}
+
+
+/* Mobile */
+
+@media handheld, only screen and (max-width: 767px) {
+body {
+	font-size: 16px;
+	-webkit-text-size-adjust: none;
+}
+.row, body, .container {
+	width: 100%;
+	min-width: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol, .full-width .row .onecol, .full-width .row .twocol, .full-width .row .threecol, .full-width .row .fourcol, .full-width .row .fivecol, .full-width .row .sixcol, .full-width .row .sevencol, .full-width .row .eightcol, .full-width .row .ninecol, .full-width .row .tencol, .full-width .row .elevencol, .full-width .row .twelvecol {
+	width: auto;
+	float: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.nav-mobile {
+	margin-top:10px;
+}
+
+}

@@ -1,0 +1,36 @@
+/* ============================== */
+/* ! Layout para desktop e laptop   */
+/* ============================== */
+
+
+body {	
+}
+
+
+ @media all and (min-width:1024px) and (max-width:1280px) {
+
+}
+
+/* ===================================== */
+/* ! Layout para tablets e smartphones   */
+/* ===================================== */
+
+@media all and (max-width: 1023px) {
+
+}
+ @media all and (max-width: 768px) {
+
+}
+
+
+/* ================================ */
+/* ! Alta resolução para iPhone 4   */
+/* ================================ */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}

@@ -172,7 +172,6 @@ float: left;
 
 /*---------------------- Outros Elementos ----------------------*/
 
-
 .italic {
 	font-style:italic;
 }
@@ -186,6 +185,24 @@ img {
 	height: auto;
 }
 
+/*---------------------- Menu responsivo ----------------------*/
+
+.nav-mobile ul li, .nav-mobile dt, .nav-mobile dd{
+	display: inline;
+	margin: 0 5px;
+}
+
+nav{
+	margin: 40px 0 0;
+}
+
+select{
+	width: 50%;
+}
+
+.nav-mobile {
+	text-align:center;
+}
 
 
 /* Smaller screens */
@@ -222,5 +239,8 @@ body {
 	padding-right: 20px;
 }
 
+.nav-mobile {
+	margin-top:10px;
+}
 
 }

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Rubber Responsive Framework 1.1.0</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- 1140px Grid styles for IE -->
+<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" />
+<!-- The 1140px Grid - http://cssgrid.net/ -->
+<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+<!-- Configurações Font Awesome - http://fortawesome.github.com/Font-Awesome/# -->
+<link rel="stylesheet" href="css/font-awesome.min.css" media="all" />
+<!-- Sua folha de estilos -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+
+<!-- Carregamento Jquery -->
+<script src="js/jquery.min.js"></script>
+
+<!-- Tabelas responsivas - script e padrões -->
+<link href="css/footable-0.1.css" rel="stylesheet" type="text/css" />
+<script src="js/footable-0.1.js" type="text/javascript"></script>
+
+<!-- Padronização de UI para campos INPUT - all browsers -->
+<link href="css/formalize.css" rel="stylesheet" type="text/css" />
+
+<!-- Padronização de UI para campos INPUT - all browsers -->
+<link href="css/wiki.css" rel="stylesheet" type="text/css" media="all" />
+	
+<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Corrige a exibição de media queries em alguns browsers-->
+<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+
+</head>
+
+
+<body>
+
+<!-- Aqui você entra o markup de seu site -->
+<!-- Recomendamos a leitura das instruções em nosso site, ou no Github -->
+<!-- Site: www.startupeando.com.br/rubber -->
+<!-- Github: https://github.com/lipsworld/RubberFramework -->
+
+
+<!-- === Funções e bibliotecas auxiliares === -->
+
+<!-- Menu responsivo -->
+<script src="js/menutron.min.js"></script>
+<script>
+  $(function(){
+    $(".nav-mobile").menutron({
+      maxScreenWidth: 768
+    });
+  });
+</script>
+
+<!-- Padronização de UI para campos INPUT - all browsers -->
+<script src="js/jquery.formalize.min.js" type="text/javascript"></script>
+
+<!-- Tabelas responsivas -->
+<script type="text/javascript">
+  $ ('.table-mobile').addClass('footable');
+  $(function() {
+    $('.footable').footable();
+  });
+</script>
+
+<!-- Biblioteca para tooltips do Wikipedia -->
+<script src="js/wiki.min.js" type="text/javascript"></script>
+
+</body>
+</html>

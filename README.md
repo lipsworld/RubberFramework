@@ -37,6 +37,7 @@ EM DESENVOLVIMENTO
 1. **sitemap.php** - criação de rotina para geração automática de arquivos "sitemap.xml" no subdiretório "/xmls". Será disponibilizado arquivo modelo 'index.php', já com as rotinas incluídas, e os arquivos XML já foram testados no Google Webmasters. Previsão 15.02.2013.
 2. **Tooltips** - inserção de 10 novas classes CSS via integração da biblioteca 'hint', para controle e uso de tooltips no HTML. Previsão 20.02.2013.
 3. **Modal** - criação de rotina para acionamento de boxes modais, com recursos de vídeo e iframe. Previsão 25.02.2013.
+4. **SEO Booster** - trabalhamos também em script para inserção de sinônimos via atributos "data" em tags HTML, que auxiliarão seu website a fornecer dados aos mecanismos de busca, via sinônimos e tags implícitas. Previsão 20.02.2013.
 
 VERSÕES ESTÁVEIS
 ----------------

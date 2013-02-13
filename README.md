@@ -42,6 +42,9 @@ EM DESENVOLVIMENTO
 VERSÕES ESTÁVEIS
 ----------------
 
+**Versão 1.1.1**
+* Correção das "tooltips" para visualização em dispositivos móveis;
+
 **Versão 1.1.0**
 * Pré-formatação e padronização cross-browser de elementos de formulários;
 * Inserção de "tooltips" com renderização de dados do Wikipedia, por meio da tag DATA no HTML. Os valores atributos "data-wiki" e "data-lang" definem, respectivamente, o verbete buscado e o idioma da busca ("pt", pata português);

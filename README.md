@@ -3,7 +3,7 @@
 USO
 ---
 
-O diretório [Rubber Framework 1.1.0](https://github.com/lipsworld/RubberFramework/tree/lipsworld/Rubber%20Framework%201.1.0) acima contém os arquivos básicos para uso do framework. Estão inclusos no pacote:
+O diretório [Rubber Framework 1.1.2](https://github.com/lipsworld/RubberFramework/tree/lipsworld/Rubber%20Framework%201.1.2) acima contém os arquivos básicos para uso do framework. Estão inclusos no pacote:
 
 - Arquivo 'index.html' base, com links para folhas de estilo, bibliotecas JS
 - Jquery 1.8.3 minified
@@ -12,6 +12,7 @@ O diretório [Rubber Framework 1.1.0](https://github.com/lipsworld/RubberFramewo
 - Biblioteca 'jQuery.menutron.js', que permite o uso da classe '.nav-mobile' para menus responsivos
 - Biblioteca 'footable-0.1.js', que permite o uso da classe '.table-mobile' para tabelas responsivas dinâmicas
 - Biblioteca 'formalize.min.js', que padroniza e pré-configura elementos de formulários
+- Biblioteca 'wiki.min.css', que aciona dados do Wikipedia via tags DATA no HTML
 
 LEIA MAIS EM - [RUBBER RESPONSIVE FRAMEWORK](http://startupeando.com.br/rubber)
 
@@ -34,13 +35,16 @@ A seguir, explicaremos o uso das classes do antigo 1140px, reutilizadas por nós
 EM DESENVOLVIMENTO
 ------------------
 
-1. **sitemap.php** - criação de rotina para geração automática de arquivos "sitemap.xml" no subdiretório "/xmls". Será disponibilizado arquivo modelo 'index.php', já com as rotinas incluídas, e os arquivos XML já foram testados no Google Webmasters. Previsão 15.02.2013.
-2. **Tooltips** - inserção de 10 novas classes CSS via integração da biblioteca 'hint', para controle e uso de tooltips no HTML. Previsão 20.02.2013.
-3. **Modal** - criação de rotina para acionamento de boxes modais, com recursos de vídeo e iframe. Previsão 25.02.2013.
-4. **SEO Booster** - trabalhamos também em script para inserção de sinônimos via atributos "data" em tags HTML, que auxiliarão seu website a fornecer dados aos mecanismos de busca, via sinônimos e tags implícitas. Previsão 20.02.2013.
+1. **sitemap.php** - criação de rotina para geração automática de arquivos "sitemap.xml" no subdiretório "/xmls". Será disponibilizado arquivo modelo 'index.php', já com as rotinas incluídas, e os arquivos XML já foram testados no Google Webmasters. Previsão 25.02.2013.
+2. **Tooltips** - inserção de 10 novas classes CSS via integração da biblioteca 'hint', para controle e uso de tooltips no HTML. Previsão 25.02.2013.
+3. **Modal** - criação de rotina para acionamento de boxes modais, com recursos de vídeo e iframe. Previsão 02.03.2013.
+
 
 VERSÕES ESTÁVEIS
 ----------------
+
+**Versão 1.1.2**
+* Inserção das classes ".grayscale" e ".blur", que geram os respectivos efeitos cross browser em imagens;
 
 **Versão 1.1.1**
 * Correção das "tooltips" para visualização em dispositivos móveis;

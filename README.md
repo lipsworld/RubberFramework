@@ -43,7 +43,7 @@ EM DESENVOLVIMENTO
 VERSÕES ESTÁVEIS
 ----------------
 
-**Versão 1.1.2**
+**Versão 1.1.3**
 * Inserção das classes ".invert" e ".translucid", que geram os respectivos efeitos de inversão de cores e opacidade de 50%;
 
 **Versão 1.1.2**

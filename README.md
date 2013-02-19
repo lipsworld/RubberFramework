@@ -3,7 +3,7 @@
 USO
 ---
 
-O diretório [Rubber Framework 1.1.2](https://github.com/lipsworld/RubberFramework/tree/lipsworld/Rubber%20Framework%201.1.2) acima contém os arquivos básicos para uso do framework. Estão inclusos no pacote:
+O diretório [Rubber Framework 1.1.3](https://github.com/lipsworld/RubberFramework/tree/lipsworld/Rubber%20Framework%201.1.3) acima contém os arquivos básicos para uso do framework. Estão inclusos no pacote:
 
 - Arquivo 'index.html' base, com links para folhas de estilo, bibliotecas JS
 - Jquery 1.8.3 minified
@@ -42,6 +42,9 @@ EM DESENVOLVIMENTO
 
 VERSÕES ESTÁVEIS
 ----------------
+
+**Versão 1.1.2**
+* Inserção das classes ".invert" e ".translucid", que geram os respectivos efeitos de inversão de cores e opacidade de 50%;
 
 **Versão 1.1.2**
 * Inserção das classes ".grayscale" e ".blur", que geram os respectivos efeitos cross browser em imagens;

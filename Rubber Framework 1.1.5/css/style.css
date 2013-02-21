@@ -1,0 +1,99 @@
+/* ============================== */
+/* ! Layout para desktop e laptop   */
+/* ============================== */
+
+body {
+}
+
+/* Filtros de imagem */
+
+img.grayscale, img.grayscale-hover:hover {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+img.blur, img.blur-hover:hover {	
+	filter: blur(3px); 
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
+	filter: url(blur.svg#blur); /* Firefox 10+, Firefox on Android */
+	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3'); /* IE6-9 */
+}
+
+img.invert, img.invert-hover:hover {
+	filter: invert(1); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'invert\'><feColorMatrix type=\'matrix\' values=\'-0.7 0.2 0.2 0.2 0 0.2 -0.7 0.2 0.2 0 0.2 0.2 -0.7 0.2 0 0.6 0.6 0.6 0 0\'/></filter></svg>#invert"); /* Firefox 10+, Firefox on Android */
+	-webkit-filter: invert(1); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+	filter:progid:DXImageTransform.Microsoft.BasicImage(Invert=1); /* IE6-9 */
+}
+
+img.translucid, img.translucid-hover:hover {
+	opacity: 0.5;
+	-webkit-opacity: 0.5;
+  	-moz-opacity: 0.5;
+  	filter:alpha(opacity=50);
+}
+
+.tint-blue, .tint-yellow, .tint-red, .tint-purple, .tint-green, .tint-dark, .tint-white, .tint-orange, .tint-blue-hover:hover, .tint-yellow-hover:hover, .tint-red-hover:hover, .tint-purple-hover:hover, .tint-green-hover:hover, .tint-dark-hover:hover, .tint-white-hover:hover, .tint-orange-hover:hover {
+	position: relative;
+	float: left;
+	cursor: pointer;
+}
+
+.tint-blue:before, .tint-blue-hover:hover:before {background: rgba(0,255,255, 0.3);}
+.tint-yellow:before, .tint-yellow-hover:hover:before {background: rgba(255,255,0, 0.3);}
+.tint-red:before, .tint-red-hover:hover:before {background: rgba(255,0,0, 0.3);}
+.tint-purple:before, .tint-purple-hover:hover:before {background: rgba(255,0,255, 0.3);}
+.tint-green:before, .tint-green-hover:hover:before {background: rgba(0,255,0, 0.3);}
+.tint-dark:before, .tint-dark-hover:hover:before {background: rgba(0,0,0, 0.3);}
+.tint-white:before, .tint-white-hover:hover:before {background: rgba(255,255,255, 0.3);}
+.tint-orange:before, .tint-orange-hover:hover:before {background: rgba(255,123,0, 0.3);}
+
+.tint-blue:before, .tint-yellow:before, .tint-red:before, .tint-purple:before, .tint-green:before, .tint-dark:before, .tint-white:before, .tint-orange:before, .tint-blue-hover:hover:before, .tint-yellow-hover:hover:before, .tint-red-hover:hover:before, .tint-purple-hover:hover:before, .tint-green-hover:hover:before, .tint-dark-hover:hover:before, .tint-white-hover:hover:before, .tint-orange-hover:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	-moz-transition: background .3s linear;
+	-webkit-transition: background .3s linear;
+	-ms-transition: background .3s linear;
+	-o-transition: background .3s linear;
+	transition: background .3s linear;
+}
+
+
+ @media all and (min-width:1024px) and (max-width:1280px) {
+
+}
+
+/* ===================================== */
+/* ! Layout para tablets e smartphones   */
+/* ===================================== */
+
+@media all and (max-width: 1023px) {
+
+}
+ @media all and (max-width: 768px) {
+	 
+
+
+}
+
+
+/* ================================ */
+/* ! Alta resolução para iPhone 4   */
+/* ================================ */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}

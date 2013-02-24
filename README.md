@@ -13,7 +13,7 @@ O diretório [Rubber Framework 1.1.5](https://github.com/lipsworld/RubberFramewo
 - Biblioteca 'footable-0.1.js', que permite o uso da classe '.table-mobile' para tabelas responsivas dinâmicas
 - Biblioteca 'formalize.min.js', que padroniza e pré-configura elementos de formulários
 - Biblioteca 'wiki.min.css', que aciona dados do Wikipedia via tags DATA no HTML
-- Biblioteca 'overlay.js', que aciona os filtros 'overlay' formatados no arquivo CSS principal
+- Biblioteca 'ColorLay.js', que aciona os filtros 'overlay' sem necessidade de estilos CSS. A biblioteca foi aprimorada e agora inclusive funciona isoladamente, como plugin JQuery - [veja aqui o repositório](https://github.com/lipsworld/ColorLay).
 
 LEIA MAIS EM - [RUBBER RESPONSIVE FRAMEWORK](http://startupeando.com.br/rubber)
 
@@ -43,6 +43,9 @@ EM DESENVOLVIMENTO
 
 VERSÕES ESTÁVEIS
 ----------------
+
+**Versão 1.1.6**
+* Os efeitos "overlay" foram aprimorados e agora tanto seu acionamento via Javascript quanto sua formatação e estilos são controlados por um único plugin JQuery - "ColorLay.js" - [disponível para download em separado](https://github.com/lipsworld/ColorLay).
 
 **Versão 1.1.5**
 * Inserção de 16 novas classes para adição de filtros "overlay" em imagens: .overlay-dark / .overlay-white / .overlay-blue / .overlay-red / .overlay-green / .overlay-yellow / .overlay-orange / .overlay-purple / .overlay-dark-hover / .overlay-white-hover / .overlay-blue-hover / .overlay-red-hover / .overlay-green-hover / .overlay-yellow-hover / .overlay-orange-hover / .overlay-purple-hover;

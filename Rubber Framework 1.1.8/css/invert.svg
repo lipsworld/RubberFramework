@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="svgroot" viewBox="0 0 800 533" preserveAspectRatio="xMidYMin">
+    <defs>
+     <filter id="invert">
+             <feComposite operator="arithmetic" k1="0" k2="1" k3="0" k4="0" 
+               in="SourceGraphic" in2="SourceGraphic" result="inputTo_6">
+             </feComposite>      
+             <feColorMatrix type="saturate" id="filter_6" values="2" 
+                            data-filterId="6">
+             </feColorMatrix>
+             </filter>
+   </svg>

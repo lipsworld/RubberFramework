@@ -3,7 +3,7 @@
 USO
 ---
 
-O diretório [Rubber Framework 1.1.5](https://github.com/lipsworld/RubberFramework/tree/lipsworld/Rubber%20Framework%201.1.5) acima contém os arquivos básicos para uso do framework. Estão inclusos no pacote:
+O diretório [Rubber Framework 1.1.85](https://github.com/lipsworld/RubberFramework/tree/lipsworld/Rubber%20Framework%201.1.8) acima contém os arquivos básicos para uso do framework. Estão inclusos no pacote:
 
 - Arquivo 'index.html' base, com links para folhas de estilo, bibliotecas JS
 - Jquery 1.8.3 minified
@@ -14,6 +14,7 @@ O diretório [Rubber Framework 1.1.5](https://github.com/lipsworld/RubberFramewo
 - Biblioteca 'formalize.min.js', que padroniza e pré-configura elementos de formulários
 - Biblioteca 'wiki.min.css', que aciona dados do Wikipedia via tags DATA no HTML
 - Biblioteca 'ColorLay.js', que aciona os filtros 'overlay' sem necessidade de estilos CSS. A biblioteca foi aprimorada e agora inclusive funciona isoladamente, como plugin JQuery - [veja aqui o repositório](https://github.com/lipsworld/ColorLay).
+- Biblioteca 'equalize.min.js', que habilita o uso da classe ".equalize"
 
 LEIA MAIS EM - [RUBBER RESPONSIVE FRAMEWORK](http://startupeando.com.br/rubber)
 
@@ -82,6 +83,10 @@ LICENÇAS E CRÉDITOS
 -------------------
 
 <div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" about="http://startupeando.com.br/rubber/index.html"><span property="dct:title">Rubber Framework</span> (<a rel="cc:attributionURL" property="cc:attributionName" href="http://www.startupeando.com.br/rubber">Carlos Matos</a>) / <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></div>
+
+**Versão 1.1.8**
+
+1. Equalize.js - [Tim Svensen](http://timsvensen.com) Dual MIT & GPLv2 license
 
 **Versão 1.1.0**
 

@@ -45,7 +45,7 @@ EM DESENVOLVIMENTO
 VERSÕES ESTÁVEIS
 ----------------
 
-**Versão 1.1.6**
+**Versão 1.1.8**
 * Alinhamento vertical de DIVs paralelas por meio da classe ".equalize";
 
 **Versão 1.1.6**

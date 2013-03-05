@@ -45,6 +45,10 @@ EM DESENVOLVIMENTO
 VERSÕES ESTÁVEIS
 ----------------
 
+**Versão 1.2.0**
+* Inclusão de "tooltips" direcionais via classes ".tipper", além de pré-configuração ".button", para criar botões a partir de links simples;
+* Problemas na visualização de "tooltips" em algumas versões do IE7, IE8 e IE9;
+
 **Versão 1.1.8**
 * Alinhamento vertical de DIVs paralelas por meio da classe ".equalize";
 
@@ -86,6 +90,10 @@ LICENÇAS E CRÉDITOS
 -------------------
 
 <div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" about="http://startupeando.com.br/rubber/index.html"><span property="dct:title">Rubber Framework</span> (<a rel="cc:attributionURL" property="cc:attributionName" href="http://www.startupeando.com.br/rubber">Carlos Matos</a>) / <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></div>
+
+**Versão 1.2.0**
+
+1. Tipper (jquery.tipper.fs.min.js) - Copyright © 2012 Ben Plum <mr@benplum.com>, MIT license
 
 **Versão 1.1.8**
 

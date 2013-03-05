@@ -3,7 +3,7 @@
 USO
 ---
 
-O diretório [Rubber Framework 1.1.85](https://github.com/lipsworld/RubberFramework/tree/lipsworld/Rubber%20Framework%201.1.8) acima contém os arquivos básicos para uso do framework. Estão inclusos no pacote:
+O diretório [Rubber Framework 1.1.8](https://github.com/lipsworld/RubberFramework/tree/lipsworld/Rubber%20Framework%201.1.8) acima contém os arquivos básicos para uso do framework. Estão inclusos no pacote:
 
 - Arquivo 'index.html' base, com links para folhas de estilo, bibliotecas JS
 - Jquery 1.8.3 minified
@@ -44,6 +44,9 @@ EM DESENVOLVIMENTO
 
 VERSÕES ESTÁVEIS
 ----------------
+
+**Versão 1.1.6**
+* Alinhamento vertical de DIVs paralelas por meio da classe ".equalize";
 
 **Versão 1.1.6**
 * Os efeitos "overlay" foram aprimorados e agora tanto seu acionamento via Javascript quanto sua formatação e estilos são controlados por um único plugin JQuery - "ColorLay.js" - [disponível para download em separado](https://github.com/lipsworld/ColorLay).

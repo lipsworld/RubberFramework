@@ -3,7 +3,7 @@
 USO
 ---
 
-O diretório [Rubber Framework 1.1.8](https://github.com/lipsworld/RubberFramework/tree/lipsworld/Rubber%20Framework%201.1.8) acima contém os arquivos básicos para uso do framework. Estão inclusos no pacote:
+O diretório [Rubber Framework 1.2.0](https://github.com/lipsworld/RubberFramework/tree/lipsworld/Rubber%20Framework%201.2.0) acima contém os arquivos básicos para uso do framework. Estão inclusos no pacote:
 
 - Arquivo 'index.html' base, com links para folhas de estilo, bibliotecas JS
 - Jquery 1.8.3 minified
@@ -15,6 +15,7 @@ O diretório [Rubber Framework 1.1.8](https://github.com/lipsworld/RubberFramewo
 - Biblioteca 'wiki.min.css', que aciona dados do Wikipedia via tags DATA no HTML
 - Biblioteca 'ColorLay.js', que aciona os filtros 'overlay' sem necessidade de estilos CSS. A biblioteca foi aprimorada e agora inclusive funciona isoladamente, como plugin JQuery - [veja aqui o repositório](https://github.com/lipsworld/ColorLay).
 - Biblioteca 'equalize.min.js', que habilita o uso da classe ".equalize"
+- Biblioteca 'jquery.tipper.fs.min.js', para uso de "tooltips"
 
 LEIA MAIS EM - [RUBBER RESPONSIVE FRAMEWORK](http://startupeando.com.br/rubber)
 
@@ -37,9 +38,9 @@ A seguir, explicaremos o uso das classes do antigo 1140px, reutilizadas por nós
 EM DESENVOLVIMENTO
 ------------------
 
-1. **sitemap.php** - criação de rotina para geração automática de arquivos "sitemap.xml" no subdiretório "/xmls". Será disponibilizado arquivo modelo 'index.php', já com as rotinas incluídas, e os arquivos XML já foram testados no Google Webmasters. Previsão 25.02.2013.
-2. **Tooltips** - inserção de 10 novas classes CSS via integração da biblioteca 'hint', para controle e uso de tooltips no HTML. Previsão 25.02.2013.
-3. **Modal** - criação de rotina para acionamento de boxes modais, com recursos de vídeo e iframe. Previsão 02.03.2013.
+1. **sitemap.php** - criação de rotina para geração automática de arquivos "sitemap.xml" no subdiretório "/xmls". Será disponibilizado arquivo modelo 'index.php', já com as rotinas incluídas, e os arquivos XML já foram testados no Google Webmasters. Previsão 25.03.2013.
+2. **Modal** - criação de rotina para acionamento de boxes modais, com recursos de vídeo e iframe. Previsão 12.03.2013.
+3. **Scroll to Top** - solução de botão para retornar ao topo da tela em páginas longas e temas "one-page". Previsão 18.03.2013.
 
 
 VERSÕES ESTÁVEIS
